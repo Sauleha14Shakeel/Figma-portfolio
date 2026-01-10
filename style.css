@@ -1,0 +1,49 @@
+:root{
+    --primary:#5E3BEE;
+}
+.navbar{
+            box-shadow: 0px 5.33px 80px 0px rgba(0, 0, 0, 0.1);
+}
+.btn-purple{
+    border: 1px solid var(--primary) !important;
+    color: var(--primary) !important;
+}
+
+.btn-purple:hover{
+    background-color: var(--primary) !important;
+    color:azure !important;
+
+}
+
+.herobtn{
+    background-color: var(--primary) !important;
+    color:azure !important;
+}
+.herobtn:hover{
+border: 1px solid var(--primary) !important;
+    color: var(--primary) !important;
+    background-color: #F5FCFF !important;
+}
+
+.hero{
+    background-color: #F5FCFF;
+}
+.hero span {
+    color: var(--primary);
+}
+.gallery{
+     background-color: #F5FCFF;
+     outline: 20px solid white;
+     gap: 20px;
+}
+.images{
+     background-color: white;
+
+}
+.main{
+    width: 20%;
+    border-radius: 10px;
+}
+.main .images img{
+    width: 100%;
+}
