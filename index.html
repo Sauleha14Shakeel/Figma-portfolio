@@ -1,132 +1,121 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="bootstrap.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="./images/Logo.svg" alt="img"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-around"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
 
-            <li>
-              <a class="nav-link active" aria-current="page" href=""
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a class="nav-link active" aria-current="page" href=""
-                >About Me</a
-              >
-            </li>
-            <li>
-              <a class="nav-link active" aria-current="page" href=""
-                >Testimonials</a
-              >
-            </li>
-          </ul>
-          <button class="btn btn-outline-success btn-purple" type="button">
-            Contect Me
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="bootstrap.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/Logo.svg" alt="img" /></a>
+      <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li>
+            <a class="nav-link active" aria-current="page" href="">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link active" aria-current="page" href="">About Me</a>
+          </li>
+          <li>
+            <a class="nav-link active" aria-current="page" href="">Testimonials</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-success btn-purple" type="button">
+          Contect Me
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section start -->
+  <div class="container-fluid col-xxl-8 px-4 py-5">
+    <div class="row hero flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-12 col-lg-6">
+        <img src="./images/Group 11 1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy" />
+      </div>
+      <div class="col-lg-6">
+        <p><b>Hey, I am John</b></p>
+        <h1 class="display-5 fw-bold lh-1 mb-3">
+          I create <span>product design</span> and brand experience
+        </h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn herobtn btn-lg px-4 me-md-2">
+            Get in touch
           </button>
         </div>
       </div>
-    </nav>
-
-    <!-- hero section start -->
-    <div class="container-fluid col-xxl-8 px-4 py-5">
-      <div class="row hero flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-12 col-lg-6">
-          <img
-            src="./images/Group 11 1.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
-        </div>
-        <div class="col-lg-6">
-          <p><b>Hey, I am John</b></p>
-          <h1 class="display-5 fw-bold lh-1 mb-3">
-            I create <span>product design</span> and brand experience
-          </h1>
-          <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn herobtn btn-lg px-4 me-md-2">
-              Get in touch
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
-    <!-- hero section end -->
-    <!-- skills section start -->
-     <div class="container px-4 py-5" id="icon-grid">
-      <p><strong>My Skills</strong></p>
-    <h2 class="pb-2 border-bottom">My Expertise</h2>
+  </div>
+  <!-- hero section end -->
+  <!-- skills section start -->
+  <div class="container px-4 py-5" id="icon-grid">
+    <p><strong>My Skills</strong></p>
+    <h2 class="pb-2 ">My Expertise</h2>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
       <div class="col gallery d-flex flex-column  align-items-start">
-  <div class="main">
+        <div class="main">
           <div class="images"><img src="./images/product-chain 1.png" alt="img">
+          </div>
         </div>
-  </div>
         <div>
           <h4 class="fw-bold mb-0">Strategy & Direction</h4>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+        </p>
       </div>
       <div class="col gallery d-flex flex-column  align-items-start">
-       <div class="main"><div class="images"><img src="./images/tag 1.png" alt="img"></div></div>
+        <div class="main">
+          <div class="images"><img src="./images/tag 1.png" alt="img"></div>
+        </div>
         <div>
           <h4 class="fw-bold mb-0">Branding & Logo</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+            tristique.</p>
         </div>
       </div>
       <div class="col gallery d-flex flex-column  align-items-start">
-      <div class="main"><div class="images"><img src="./images/feather-pen 1.png" alt="img"></div></div>
+        <div class="main">
+          <div class="images"><img src="./images/feather-pen 1.png" alt="img"></div>
+        </div>
         <div>
           <h4 class="fw-bold mb-0">UI & UX Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+            tristique.</p>
         </div>
-      </div> 
+      </div>
       <div class="col gallery d-flex flex-column align-items-start">
-      <div class="main"> <div class="images"><img src="./images/feather-pen 1 (1).png" alt="img"></div></div>
+        <div class="main">
+          <div class="images"><img src="./images/feather-pen 1 (1).png" alt="img"></div>
+        </div>
         <div>
           <h4 class="fw-bold mb-0">Webflow Development</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+            tristique.</p>
         </div>
       </div>
     </div>
   </div>
-    <!-- skills section end -->
+  <!-- skills section end -->
 
-    <script src="bootstrap.js"></script>
-  </body>
+  <script src="bootstrap.js"></script>
+</body>
+
 </html>
