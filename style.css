@@ -10,12 +10,12 @@
 }
 .btn-purple{
     border: 1px solid var(--primary) !important;
-    color: var(--primary) !important;
+    color: azure !important;
 }
 
 .btn-purple:hover{
-    background-color: var(--primary) !important;
-    color:azure !important;
+    background-color: azure !important;
+    color:var(--primary) !important;
 
 }
 
@@ -25,7 +25,7 @@
 }
 .herobtn:hover{
 border: 1px solid var(--primary) !important;
-    color: var(--primary) !important;
+    color: var(--primary)!important;
     background-color: #F5FCFF !important;
 }
 
@@ -59,13 +59,68 @@ border: 1px solid var(--primary) !important;
 .heading{
     justify-content: center;
     text-align: center;
+    padding: 30px;
 }
-.pcard{
-    width: 25% !important;
+.group{
+    gap: 2% !important;
+    padding: 40px;
+
+}
+.group .pcard {
+    width: 32% !important;
+    gap: 30px;
+    border-radius: 10px;
+    padding: 0% !important;
+     box-shadow:  0px 5.33px 80px 0px rgba(0, 0, 0, 0.1) !important;
 }
 .pcard a {
  text-decoration: none;
- padding-left: 19px;
  color: black;
 
+}
+.tmain{
+   gap: 3%;
+   padding: 40px;
+   justify-content: center;
+   box-shadow:  0px 5.33px 80px 0px rgba(0, 0, 0, 0.1) !important;
+   background-color: #F5FCFF;
+}
+.theading{
+    padding-left:10% !important;
+    padding-bottom: 3% !important;
+}
+
+.tcard{
+     box-shadow:  0px 5.33px 80px 0px rgba(0, 0, 0, 0.1) !important;
+
+}
+.testimonials{
+    width: 20%;
+    gap: 20px;
+}
+.testimonials img {
+    width: 50px;
+}
+
+.cmain{
+    padding: 70px;
+    align-items: center;
+    justify-items: center;
+    gap: 10%;
+}
+.form{
+    padding-left: 3%;
+}
+button{
+    background-color: var(--primary) !important;
+    color: white !important;
+}
+.links{
+    text-decoration: none;
+    display: flex;
+
+}
+.footer{
+    background-color: #F5FCFF !important;
+    padding: 2px;
 }
