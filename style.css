@@ -92,6 +92,7 @@ border: 1px solid var(--primary) !important;
 
 .tcard{
      box-shadow:  0px 5.33px 80px 0px rgba(0, 0, 0, 0.1) !important;
+     border-color:#006b6a !important;
 
 }
 .testimonials{
@@ -123,4 +124,9 @@ button{
 .footer{
     background-color: #F5FCFF !important;
     padding: 2px;
+}
+
+.bgClr input{
+    border: 2px solid blue !important;
+
 }
