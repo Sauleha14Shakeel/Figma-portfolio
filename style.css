@@ -56,6 +56,7 @@ border: 1px solid var(--primary) !important;
     width: 100%;
       box-shadow: 0px 5.33px 80px 0px rgba(0, 0, 0, 0.1);
 }
+
 .heading{
     justify-content: center;
     text-align: center;
@@ -76,8 +77,10 @@ border: 1px solid var(--primary) !important;
 .pcard a {
  text-decoration: none;
  color: black;
+ padding:4%;
 
 }
+
 .tmain{
    gap: 3%;
    padding: 40px;
@@ -124,9 +127,4 @@ button{
 .footer{
     background-color: #F5FCFF !important;
     padding: 2px;
-}
-
-.bgClr input{
-    border: 2px solid blue !important;
-
 }

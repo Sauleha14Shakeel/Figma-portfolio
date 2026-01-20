@@ -2,11 +2,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="bootstrap.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-     
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
@@ -90,7 +99,9 @@
     </div>
     <!-- hero section end -->
     <!-- skills section start -->
-    <div class="container px-4 py-5" id="icon-grid">
+   <div class="container-fluid">
+
+       <div class="container px-4 py-5" id="icon-grid">
       <p><strong>My Skills</strong></p>
       <h2 class="pb-2">My Expertise</h2>
 
@@ -153,6 +164,8 @@
         </div>
       </div>
     </div>
+
+   </div>
     <!-- skills section end -->
     <!-- About me start -->
     <div class="container-fluid">
@@ -186,62 +199,58 @@
       </div>
     </div>
     <!-- About me end -->
-    <!-- my project start -->
-    <div class="container-fluid group row flex-lg-row">
-      <div class="heading"><h1>My Projects</h1></div>
-      <div class="card pcard" style="width: 18rem">
-        <img src="./images/Image2.png" class="card-img-top" alt="card" />
-        <div class="card-body">
-          <h5 class="card-title">Ahuse</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros.
-          </p>
-          <a href=""
-            >View In Dribbble
-            <i
-              class="fa-solid fa-arrow-up fa-rotate-by"
-              style="color: #006b6a; --fa-rotate-angle: 45deg"
-            ></i
-          ></a>
-        </div>
-      </div>
-      <div class="card pcard" style="width: 18rem">
-        <img src="./images/Image.png" class="card-img-top" alt="card" />
-        <div class="card-body">
-          <h5 class="card-title">Ahuse</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros.
-          </p>
-          <a href=""
-            >View In Dribbble
-            <i
-              class="fa-solid fa-arrow-up fa-rotate-by"
-              style="color: #006b6a; --fa-rotate-angle: 45deg"
-            ></i
-          ></a>
-        </div>
-      </div>
-      <div class="card pcard" style="width: 18rem">
-        <img src="./images/IMG.png" class="card-img-top" alt="card" />
-        <div class="card-body">
-          <h5 class="card-title">Ahuse</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros.
-          </p>
-          <a href=""
-            >View In Dribbble
-            <i
-              class="fa-solid fa-arrow-up fa-rotate-by"
-              style="color: #006b6a; --fa-rotate-angle: 45deg"
-            ></i
-          ></a>
+
+
+<!-- Projects start-->
+ <div class="container-fluid">
+  <div class="container  py-5 justify-content-center">
+    <div class="heading"><h1>My Projects</h1></div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100 pcard">
+      <img src="./images/Image.png" class="card-img-top" alt="project">
+      <div class="card-body">
+        <h5 class="card-title">Ahuse</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        <div class="link">
+          <a href="">View In Dribbble</a><i class="fa-solid fa-arrow-right-long fa-rotate-by" style="color: #006b6a; --fa-rotate-angle: 325deg;"></i>
         </div>
       </div>
     </div>
-    <!-- my project end -->
+  </div>
+  <div class="col">
+    <div class="card h-100 pcard ">
+      <img src="./images/Image2.png" class="card-img-top" alt="project">
+      <div class="card-body">
+        <h5 class="card-title">App Dashboard</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        <div class="link">
+          <a href="">View In Dribbble</a><i class="fa-solid fa-arrow-right-long fa-rotate-by" style="color: #006b6a; --fa-rotate-angle: 325deg;"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 pcard">
+      <img src="./images/IMG.png" class="card-img-top" alt="project">
+      <div class="card-body">
+        <h5 class="card-title">Easy Rent</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        <div class="link">
+          <a href="">View In Dribbble</a><i class="fa-solid fa-arrow-right-long fa-rotate-by" style="color: #006b6a; --fa-rotate-angle: 325deg;"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+
+ </div>
+<!-- Project end -->
+
+
+
     <!-- Testimonials start -->
     <div class="container-fluid tmain row flex-lg-row">
       <div class="theading">
@@ -314,163 +323,72 @@
     </div>
     <!-- Testimonials end -->
     <!--contect section start  -->
-    <!-- <div class="cmain">
-      <p><strong>Get In Touch</strong></p>
-      <h2>Contact me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-      <div class="row">
-        <div class="col-sm-5">
-          <label for="firstName" class="form-label">First name</label>
-          <input
-            type="text"
-            class="form-control"
-            id="firstName"
-            placeholder=""
-            value=""
-            required=""
-          />
-          <div class="invalid-feedback">Valid first name is required.</div>
-        </div>
-        <div class="col-sm-5">
-          <label for="lastName" class="form-label">Last name</label>
-          <input
-            type="text"
-            class="form-control"
-            id="lastName"
-            placeholder=""
-            value=""
-            required=""
-          />
-          <div class="invalid-feedback">Valid last name is required.</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-5">
-          <label for="lastName" class="form-label">Email</label>
-          <input
-            type="text"
-            class="form-control"
-            id="lastName"
-            placeholder=""
-            value=""
-            required=""
-          />
-          <div class="invalid-feedback">Valid last name is required.</div>
-        </div>
-        <div class="col-sm-5">
-          <label for="lastName" class="form-label">Phone number</label>
-          <input
-            type="text"
-            class="form-control"
-            id="lastName"
-            placeholder=""
-            value=""
-            required=""
-          />
-          <div class="invalid-feedback">Valid last name is required.</div>
-        </div>
-      </div>
-
-      <div class="col-md-5 form">
-        <label for="country" class="form-label">Choose a topic</label>
-        <select class="form-select" id="country" required="">
-          <option value="">Select one...</option>
-          <option></option>
-        </select>
-        <div class="invalid-feedback">Please select a valid country.</div>
-      </div>
-      <div class="col-md-5 form">
-        <label for="Message" class="form-label">Message</label>
-        <textarea
-          class="form-control"
-          id="form6Example7"
-          placeholder="Type your message..."
-          rows="4"
-        ></textarea>
-        <div class="form-group"></div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck" />
-          <label class="form-check-label" for="gridCheck"> Check me out </label>
-        </div>
-      </div>
-      <div class="button">
-        <button type="submit" class="btn">Sign in</button>
-      </div>
-    </div> -->
-    <div class="container bgClr">
-       <div class="container contact p-lg-5 p-sm-4 " id="contact">
-      <p class="text-center py-sm-4">Get In Touch</p>
-      <h2 class="text-center">Contact us</h2>
-      <p class="text-center py-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
-      <!-- Form -->
-      <form class="row g-3">
-        <!-- First Name -->
-        <div class="col-md-6">
-          <label for="inputName4" class="form-label">First name</label>
-          <input type="name" class="form-control" id="inputName4" />
-        </div>
-        <!-- Last Name -->
-        <div class="col-md-6">
-          <label for="inputName4" class="form-label">Last Name</label>
-          <input type="name" class="form-control" id="inputName4" />
-        </div>
-        <!-- Email -->
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4" />
-        </div>
-        <!-- Password -->
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4" />
-        </div>
-        <!-- Option -->
-        <div class="col-md-12">
-          <label for="inputState" class="form-check select"
-            >Choose a topic</label
-          >
-          <select id="inputState" class="form-select">
-            <option selected>Select one</option>
-            <option>...</option>
-          </select>
-        </div>
-        <!-- Message -->
-        <div data-mdb-input-init class="form-outline mb-4">
-          <label class="form-label" for="form4Example3">Message</label>
-          <textarea class="form-control" id="form4Example3" rows="4">
+    <div class="container">
+      <div class="container contact p-lg-5 p-sm-4" id="contact">
+        <p class="text-center py-sm-4">Get In Touch</p>
+        <h2 class="text-center">Contact us</h2>
+        <p class="text-center py-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <!-- Form -->
+        <form class="row g-3">
+          <!-- First Name -->
+          <div class="col-md-6">
+            <label for="inputName4" class="form-label">First name</label>
+            <input type="name" class="form-control" id="inputName4" />
+          </div>
+          <!-- Last Name -->
+          <div class="col-md-6">
+            <label for="inputName4" class="form-label">Last Name</label>
+            <input type="name" class="form-control" id="inputName4" />
+          </div>
+          <!-- Email -->
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" />
+          </div>
+          <!-- Password -->
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" />
+          </div>
+          <!-- Option -->
+          <div class="col-md-12">
+            <label for="inputState" class="form-check select"
+              >Choose a topic</label
+            >
+            <select id="inputState" class="form-select">
+              <option selected>Select one</option>
+              <option>...</option>
+            </select>
+          </div>
+          <!-- Message -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <label class="form-label" for="form4Example3">Message</label>
+            <textarea class="form-control" id="form4Example3" rows="4">
 Type your message...</textarea
-          >
-        </div>
-        <!-- Check box -->
-        <div class="col-12">
-          <div class="form-check">
-            <input
-              class="form-check-input border-black check"
-              type="checkbox"
-              id="gridCheck"
-            />
-            <label class="form-check-label" for="gridCheck"
-              >I accept the terms</label
             >
           </div>
-        </div>
-        <!-- Button -->
-        <div class="col-12 d-flex justify-content-center">
-          <button type="submit" class="btn px-5 py-2">Submit</button>
-        </div>
-      </form>
+          <!-- Check box -->
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input border-black check"
+                type="checkbox"
+                id="gridCheck"
+              />
+              <label class="form-check-label" for="gridCheck"
+                >I accept the terms</label
+              >
+            </div>
+          </div>
+          <!-- Button -->
+          <div class="col-12 d-flex justify-content-center">
+            <button type="submit" class="btn px-5 py-2">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
-    </div>
-    <!-- Contact Section-->
-     
-
-
-
-
-
     <!--contect section end  -->
     <!-- footer section start -->
     <footer class="bg-light footerr">
@@ -500,21 +418,21 @@ Type your message...</textarea
                 <a class="nav-link text-dark" href="#">Testimonials</a>
               </li>
             </ul>
-              </div>
-            <!-- icons -->
-            <div class="col-md-3 text-md-end text-center">
-              <a href="#" class="text-dark me-3"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a href="#" class="text-dark me-3"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
-            </div>
+          </div>
+          <!-- icons -->
+          <div class="col-md-3 text-md-end text-center">
+            <a href="#" class="text-dark me-3"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="text-dark me-3"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
+          </div>
         </div>
       </div>
       <!-- bootom footer -->
-       <hr class="text-gray-200">
+      <hr class="text-gray-200" />
       <div class="bottom-top">
         <div
           class="container py-2 d-flex flex-md-row flex-column justify-content-between text-center text-md-start small"
