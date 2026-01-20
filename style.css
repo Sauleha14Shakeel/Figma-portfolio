@@ -1,18 +1,23 @@
 :root{
     --primary:#5E3BEE;
 }
-.mnavbar{
+.navbar{
             box-shadow: 0px 5.33px 80px 0px rgba(0, 0, 0, 0.1);
 }
 .hamburger{
-    color: white !important;
-    border: 1px solid white !important;
+    background-color: white !important;
+    border: 1px solid black !important;
 }
+
 .btn-purple{
     border: 1px solid var(--primary) !important;
     color: azure !important;
 }
-
+.hamburger:hover{
+    background-color: var(--primary) !important;
+    color:white !important;
+    border: 1px solid #5E3BEE !important;
+}
 .btn-purple:hover{
     background-color: azure !important;
     color:var(--primary) !important;
@@ -62,22 +67,11 @@ border: 1px solid var(--primary) !important;
     text-align: center;
     padding: 30px;
 }
-.group{
-    gap: 2% !important;
-    padding: 40px;
-
-}
-.group .pcard {
-    width: 32% !important;
-    gap: 30px;
-    border-radius: 10px;
-    padding: 0% !important;
-     box-shadow:  0px 5.33px 80px 0px rgba(0, 0, 0, 0.1) !important;
-}
 .pcard a {
  text-decoration: none;
  color: black;
  padding:4%;
+ border: none !important;
 
 }
 
@@ -118,6 +112,12 @@ border: 1px solid var(--primary) !important;
 button{
     background-color: var(--primary) !important;
     color: white !important;
+    border: 1px solid var(--primary) !important;
+}
+button:hover{
+    background-color: azure !important;
+    color:var(--primary) !important;
+
 }
 .links{
     text-decoration: none;
